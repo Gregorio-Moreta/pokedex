@@ -1,0 +1,14 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+<body>
+    <%- include("./partials/header.ejs") %>
+    <h1>Pokedex Show Page</h1>
+    <%= allPokemon.name %> </br>
+    <%= allPokemon.type %> </br>
+    <img src= "<%= allPokemon.img %>" /> 
+    
+    <%- include("./partials/footer.ejs") %>
+</body>
+</html>
